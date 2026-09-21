@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <style>
+    /* ==============================
+       CONFIGURAÇÃO GERAL
+    ============================== */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 20px;
+        background: #FFF1D6;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+
+    /* ==============================
+       CONTAINER PRINCIPAL
+    ============================== */
+
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+
+    /* ==============================
+       TÍTULO PRINCIPAL
+    ============================== */
+
+    body > h1 {
+        max-width: 960px;
+        margin: 0 auto 30px;
+        text-align: center;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+    }
+
+
+    /* ==============================
+       CADA LOCAL / ARTIGO
+    ============================== */
+
+    .place {
+        width: 100%;
+        background-color: #FFF;
+        border: 1px solid #ccc;
+        margin: 0 auto 20px;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+
+    /* ==============================
+       TÍTULOS DAS SEÇÕES
+    ============================== */
+
+    .place h2 {
+        border-bottom: 1px dashed #7E9F19;
+        margin: 0 0 15px;
+        padding-bottom: 5px;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+    }
+
+
+    /* ==============================
+       LINKS
+    ============================== */
+
+    .place a {
+        color: #2C88A7;
+        font-weight: bold;
+        text-decoration: none;
+        overflow-wrap: break-word;
+    }
+
+    .place a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* ==============================
+       IMAGENS
+    ============================== */
+
+    .place img {
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #7E9F19;
+        float: left;
+        margin: 10px 15px 10px 0;
+        padding: 2px;
+    }
+
+
+    /* ==============================
+       PARÁGRAFOS
+    ============================== */
+
+    .place p {
+        text-align: justify;
+        overflow-wrap: break-word;
+    }
+
+
+    /* ==============================
+       TABLETS
+       Até 768px
+    ============================== */
+
+    @media (max-width: 768px) {
+
+        body {
+            padding: 15px;
+        }
+
+        body > h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .place {
+            padding: 12px;
+        }
+
+        .place h2 {
+            font-size: 23px;
+        }
+
+        .place img {
+            width: 45%;
+            margin-right: 15px;
+        }
+
+        .place p {
+            text-align: left;
+        }
+    }
+
+
+    /* ==============================
+       CELULARES
+       Até 600px
+    ============================== */
+
+    @media (max-width: 600px) {
+
+        body {
+            padding: 10px;
+        }
+
+        body > h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .place {
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+
+        .place h2 {
+            font-size: 21px;
+        }
+
+        .place img {
+            float: none;
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 10px auto 15px;
+        }
+
+        .place p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: left;
+        }
+    }
+
+
+    /* ==============================
+       CELULARES PEQUENOS
+       Até 400px
+    ============================== */
+
+    @media (max-width: 400px) {
+
+        body {
+            padding: 8px;
+        }
+
+        body > h1 {
+            font-size: 21px;
+        }
+
+        .place {
+            padding: 10px;
+        }
+
+        .place h2 {
+            font-size: 19px;
+        }
+
+        .place p {
+            font-size: 15px;
+        }
+    }
+
+    .rodape {
+    max-width: 960px;
+    margin: 30px auto 0;
+    padding: 25px 15px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+
+.rodape p {
+    margin: 8px 0;
+}
+
+.rodape a {
+    color: #2C88A7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+</style>
+
+
+
+    <title>O que eu mais gosto em Malanje</title>
+</head>
+    <body>
+
+         <h1>Malanje: a cidade que existe para além das notícias</h1>
+
+            
+
+            <div class="place">
+
+                <h2>Malanje para além das fotografias</h2>
+                <img src="imag/Malanje_centro_2011-08_IMG1321.jpg" alt="Malanje o centro da cidade">
+                <p>
+                    Malanje é uma terra bonita, com uma história, uma cultura e paisagens que
+                    merecem ser conhecidas. Mas existe uma outra Malanje que raramente aparece
+                    nas fotografias, nos discursos ou nas notícias: a Malanje dos bairros
+                    esquecidos, das dificuldades diárias e das famílias que lutam todos os dias
+                    para sobreviver.
+                </p>
+                <p>
+                    Basta sair das zonas mais movimentadas para encontrar estradas em más
+                    condições, ruas esburacadas e bairros onde as dificuldades fazem parte da
+                    rotina. Quando chega a chuva, a situação torna-se ainda mais complicada.
+                    Algumas ruas transformam-se em caminhos de lama e água, dificultando a
+                    circulação de pessoas, motorizadas e viaturas. Para muitas famílias, sair de
+                    casa nesses dias transforma-se numa verdadeira aventura. 
+                    <a href="https://www.makaangola.org/2022/05/estradas-esburacadas-e-atraso-de-angola/"
+                        target="_blank">Estradas Esburacadas e Atraso de Angola 
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="place">
+
+                <h2>Os bairros que quase ninguém vê</h2>
+                <img src="imag/bairros-malanje-500x256.jpeg" alt="Os bairros que quase ninguém vê">
+                <p>
+                    Existe uma Malanje que não aparece nos noticiários com a mesma frequência: aquela 
+                    onde vivem pessoas que enfrentam diariamente problemas de saneamento, transportes, 
+                    estradas, água, energia e acesso a outros serviços básicos. São bairros onde as pessoas 
+                    continuam a viver, trabalhar e criar os seus filhos apesar das dificuldades. Para muitas 
+                    famílias, problemas que deveriam ser temporários acabam por fazer parte da rotina, afetando 
+                    a forma como as pessoas se deslocam, estudam, trabalham e cuidam das suas famílias.
+                </p>
+                <p>
+                    Enquanto algumas zonas recebem mais atenção, outras parecem permanecer
+                    esquecidas. E, para quem vive nesses lugares, a falta de condições não é uma
+                    notícia passageira. É a realidade de todos os dias.
+                    <a href="https://www.voaportugues.com/a/pobreza-e-desespero-em-camoma-/5844327.html" target="_blank">
+                        Pobreza e desespero em Camoma
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="place">
+
+                <h2>Quando a chuva chega</h2>
+                <img src="imag/chuva-malanje-original-500x256-q90.jpeg" alt="Quando a chuva chega">
+                <p>
+                    Quando começa a chover, muitos moradores já sabem o que os espera. A água
+                    acumula-se nas ruas, a lama dificulta a passagem e alguns caminhos tornam-se
+                    quase impossíveis de atravessar. Quem precisa chegar ao trabalho, à escola,
+                    ao hospital ou ao mercado muitas vezes precisa enfrentar essas condições
+                    mesmo sem ter outra alternativa.
+                </p>
+                <p>
+                    Nessas horas, parece que só Deus pode livrar algumas famílias das águas e da lama. 
+                    Não deveria ser assim. Uma rua transitável, drenagem adequada e infraestruturas básicas 
+                    deveriam fazer parte da vida normal de qualquer comunidade. Quando as chuvas chegam e encontram 
+                    ruas sem condições de escoamento, os problemas tornam-se ainda maiores, afetando moradores, comerciantes, 
+                    estudantes, trabalhadores e todos aqueles que precisam circular pela cidade.
+                    <a href="https://www.facebook.com/watch/?v=3506746106144537" target="_blank">
+                        Ver vídeo no Facebook
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="place">
+    
+                <h2>Serviços públicos e as dificuldades de acesso</h2>
+                <img src="imag/servicos-publicos-500x256-q90.jpeg" alt="Serviços públicos e as dificuldades de acesso">
+    
+                <p>
+                    Outra reclamação presente no dia a dia de muitos cidadãos é a dificuldade
+                    de acesso a determinadas oportunidades e serviços. Há pessoas que sentem
+                    que as suas ligações políticas podem influenciar o acesso a oportunidades,
+                    enquanto outras, sem essas ligações, enfrentam mais obstáculos.
+                </p>
+    
+                <p>
+                    É uma percepção que merece ser discutida com seriedade: os serviços públicos
+                    devem servir o público, independentemente da filiação ou preferência
+                    política de cada cidadão. Quando alguém sente que precisa de pertencer a um
+                    determinado grupo para ter acesso a uma oportunidade, a confiança nas
+                    instituições fica enfraquecida.
+                    <a href="https://novojornal.co.ao/politica/detalhe/quessua-uma-localidade-com-mil-problemas-novo-municipio-de-malanje-tem-falta-de-quase-tudo-66118.html"
+                        target="_blank">  Quéssua: uma localidade com mil problemas
+                    </a>
+                </p>
+            </div>
+
+            <div class="place">
+
+                <h2>A lavra, a moto-táxi e a sobrevivência</h2>
+                <img src="imag/lavra-mototaxi-500x256-q90.jpeg" alt="A lavra, a moto-táxi e a sobrevivência">
+                <p>
+                    Para muitas pessoas, quando as oportunidades de trabalho formal são
+                    limitadas, resta procurar outras formas de sobrevivência. A lavra continua
+                    a ser uma realidade importante para muitas famílias, enquanto a moto-táxi
+                    se tornou uma alternativa para quem precisa de ganhar algum dinheiro para
+                    sustentar a casa.
+                </p>
+                <p>
+                    Não há vergonha nenhuma em trabalhar na lavra ou conduzir uma motorizada.
+                    O problema está em quando essas atividades deixam de ser uma escolha e
+                    passam a ser praticamente a única alternativa disponível para quem procura
+                    uma vida melhor. 
+                    <a href="https://www.novojornal.co.ao/sociedade/detalhe/malanje-licenciado-em-ciencias-da-educacao-faz-de-servico-de-moto-taxi-primeiro-emprego-66882.html"
+                        target="_blank">  Licenciado em Ciências da Educação faz de moto-táxi o primeiro emprego
+                    </a>
+                </p>
+
+            </div>
+
+            <div class="place">
+
+                <h2>Uma cidade que merece mais</h2>
+                <img src="imag/cidade-merece-mais-500x256-q90.jpeg" alt="Uma cidade que merece mais">
+                <p>
+                    Falar das dificuldades de Malanje não significa dizer que Malanje não tem
+                    valor. Pelo contrário. É precisamente porque a cidade e as suas populações
+                    têm valor que os seus problemas precisam ser vistos e discutidos.
+                </p>
+                <p>
+                    Por trás de cada estrada esburacada existe alguém que precisa chegar ao
+                    trabalho. Por trás de cada rua inundada existe uma família. Por trás de cada
+                    bairro esquecido existem crianças que precisam de estudar, jovens que
+                    procuram oportunidades e adultos que lutam diariamente para colocar comida
+                    na mesa.
+                </p>
+                <p>
+                    Malanje não é apenas aquilo que aparece nas fotografias. É também a realidade
+                    de quem acorda cedo, enfrenta estradas degradadas, trabalha de sol a sol e
+                    continua a acreditar que amanhã pode ser melhor.
+                </p>
+                <p>
+                    Talvez o primeiro passo para mudar uma realidade seja deixar de fingir que
+                    ela não existe. É preciso olhar para os bairros que quase ninguém vê, ouvir
+                    as pessoas que raramente são ouvidas e reconhecer as dificuldades que fazem
+                    parte do quotidiano de milhares de cidadãos.
+                    <a href="https://www.tripadvisor.com.br/Attractions-g3678163-Activities-Malanje_Province.html"
+                     target="_blank"> Conheça também as atrações de Malanje
+                    </a>
+                </p>
+            </div>
+
+            <footer class="rodape">
+                <p>&copy; 2026 — Malanje: a cidade que existe para além das notícias</p>
+
+
+                <p>
+                    Este espaço foi criado para mostrar diferentes realidades de Malanje,
+                    dar visibilidade às dificuldades enfrentadas por algumas comunidades
+                    e valorizar as histórias das pessoas que vivem na cidade.
+                </p>
+
+                <p>
+                    <a href="malanje.html">Voltar ao topo ↑</a>
+                </p>
+
+
+            </footer>
+
+    </body>
+</html>
